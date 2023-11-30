@@ -4,3 +4,5 @@ def user_info(fname, lname):
     print("users full name is {} {}".format(fname, lname))
 user_info("Alvee", "Patuari")
 user_info("Arafat", "Chowdhory")
+user_info("Chowdhory", "Arafat")
+user_info(lname="Chowdhory", fname="Arafat")
